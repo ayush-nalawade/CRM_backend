@@ -1,0 +1,63 @@
+{"timestamp":"2025-07-19T07:39:24.005Z","level":"INFO","message":"Database connection established successfully"}
+{"timestamp":"2025-07-19T07:39:24.545Z","level":"INFO","message":"Database synced successfully"}
+{"timestamp":"2025-07-19T09:13:38.556Z","level":"INFO","message":"Database connection established successfully"}
+{"timestamp":"2025-07-19T09:13:39.682Z","level":"INFO","message":"Database synced successfully"}
+{"timestamp":"2025-07-19T09:13:46.027Z","level":"INFO","message":"HTTP Request Started","data":{"requestId":"req_1752916426027_1s5t0gw8n","method":"POST","url":"/api/auth/register","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"anonymous"}}
+{"timestamp":"2025-07-19T09:13:46.147Z","level":"INFO","message":"HTTP Request Completed","data":{"requestId":"req_1752916426027_1s5t0gw8n","method":"POST","url":"/register","statusCode":201,"responseTime":"120ms","responseSize":42}}
+{"timestamp":"2025-07-19T09:13:46.147Z","level":"INFO","message":"HTTP Request Completed","data":{"requestId":"req_1752916426027_1s5t0gw8n","method":"POST","url":"/register","statusCode":500,"responseTime":"120ms","responseSize":63}}
+{"timestamp":"2025-07-19T09:13:46.149Z","level":"INFO","message":"HTTP Request Completed","data":{"requestId":"req_1752916426027_1s5t0gw8n","method":"POST","url":"/api/auth/register","statusCode":500,"responseTime":"122ms","responseSize":228}}
+{"timestamp":"2025-07-19T09:13:46.152Z","level":"INFO","message":"HTTP Request","data":{"message":"::1 - - [19/Jul/2025:09:13:46 +0000] \"POST /api/auth/register HTTP/1.1\" 500 1240 \"-\" \"PostmanRuntime/7.44.1\""}}
+{"timestamp":"2025-07-19T09:17:03.186Z","level":"INFO","message":"Database connection established successfully"}
+{"timestamp":"2025-07-19T09:17:03.901Z","level":"INFO","message":"SIGINT received, shutting down gracefully"}
+{"timestamp":"2025-07-19T09:17:04.343Z","level":"INFO","message":"Database synced successfully"}
+{"timestamp":"2025-07-19T09:17:26.658Z","level":"INFO","message":"Database connection established successfully"}
+{"timestamp":"2025-07-19T09:17:27.842Z","level":"INFO","message":"Database synced successfully"}
+{"timestamp":"2025-07-19T09:17:33.077Z","level":"INFO","message":"HTTP Request Started","data":{"requestId":"req_1752916653076_pk4ncu0kp","method":"POST","url":"/api/auth/register","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"anonymous"}}
+{"timestamp":"2025-07-19T09:17:33.078Z","level":"INFO","message":"User registration attempt","data":{"requestId":"req_1752916653076_pk4ncu0kp","email":"ayush@gmail.com","role":"Admin"}}
+{"timestamp":"2025-07-19T09:17:33.087Z","level":"INFO","message":"HTTP Request Completed","data":{"requestId":"req_1752916653076_pk4ncu0kp","method":"POST","url":"/api/auth/register","statusCode":409,"responseTime":"11ms","responseSize":211}}
+{"timestamp":"2025-07-19T09:17:33.094Z","level":"INFO","message":"HTTP Request","data":{"message":"::1 - - [19/Jul/2025:09:17:33 +0000] \"POST /api/auth/register HTTP/1.1\" 409 211 \"-\" \"PostmanRuntime/7.44.1\""}}
+{"timestamp":"2025-07-19T09:17:53.936Z","level":"INFO","message":"HTTP Request Started","data":{"requestId":"req_1752916673936_je0mpdp37","method":"POST","url":"/api/auth/register","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"anonymous"}}
+{"timestamp":"2025-07-19T09:17:53.937Z","level":"INFO","message":"User registration attempt","data":{"requestId":"req_1752916673936_je0mpdp37","email":"ayush123@gmail.com","role":"Admin"}}
+{"timestamp":"2025-07-19T09:17:54.082Z","level":"INFO","message":"User registered successfully","data":{"requestId":"req_1752916673936_je0mpdp37","userId":4,"email":"ayush123@gmail.com"}}
+{"timestamp":"2025-07-19T09:17:54.082Z","level":"INFO","message":"HTTP Request Completed","data":{"requestId":"req_1752916673936_je0mpdp37","method":"POST","url":"/register","statusCode":201,"responseTime":"146ms","responseSize":141}}
+{"timestamp":"2025-07-19T09:17:54.083Z","level":"INFO","message":"HTTP Request","data":{"message":"::1 - - [19/Jul/2025:09:17:54 +0000] \"POST /api/auth/register HTTP/1.1\" 201 141 \"-\" \"PostmanRuntime/7.44.1\""}}
+{"timestamp":"2025-07-19T09:18:41.057Z","level":"INFO","message":"HTTP Request Started","data":{"requestId":"req_1752916721057_iks54d1iy","method":"POST","url":"/api/auth/login","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"anonymous"}}
+{"timestamp":"2025-07-19T09:18:41.059Z","level":"INFO","message":"User login attempt","data":{"requestId":"req_1752916721057_iks54d1iy","email":"ayush123@gmail.com"}}
+{"timestamp":"2025-07-19T09:18:41.176Z","level":"INFO","message":"User login successful","data":{"requestId":"req_1752916721057_iks54d1iy","userId":4,"email":"ayush123@gmail.com"}}
+{"timestamp":"2025-07-19T09:18:41.176Z","level":"INFO","message":"HTTP Request Completed","data":{"requestId":"req_1752916721057_iks54d1iy","method":"POST","url":"/login","statusCode":200,"responseTime":"119ms","responseSize":138}}
+{"timestamp":"2025-07-19T09:18:41.177Z","level":"INFO","message":"HTTP Request","data":{"message":"::1 - - [19/Jul/2025:09:18:41 +0000] \"POST /api/auth/login HTTP/1.1\" 200 138 \"-\" \"PostmanRuntime/7.44.1\""}}
+{"timestamp":"2025-07-19T09:20:11.071Z","level":"INFO","message":"Database connection established successfully"}
+{"timestamp":"2025-07-19T09:20:12.290Z","level":"INFO","message":"Database synced successfully"}
+{"timestamp":"2025-07-19T09:22:21.471Z","level":"INFO","message":"HTTP Request Started","data":{"requestId":"req_1752916941471_p0lrdwd72","method":"GET","url":"/api/customers","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"anonymous"}}
+{"timestamp":"2025-07-19T09:22:21.473Z","level":"INFO","message":"HTTP Request Completed","data":{"requestId":"req_1752916941471_p0lrdwd72","method":"GET","url":"/api/customers","statusCode":500,"responseTime":"2ms","responseSize":234}}
+{"timestamp":"2025-07-19T09:22:21.474Z","level":"INFO","message":"HTTP Request","data":{"message":"::1 - - [19/Jul/2025:09:22:21 +0000] \"GET /api/customers HTTP/1.1\" 500 234 \"-\" \"PostmanRuntime/7.44.1\""}}
+{"timestamp":"2025-07-19T09:25:57.773Z","level":"INFO","message":"SIGTERM received, shutting down gracefully"}
+{"timestamp":"2025-07-19T09:26:00.588Z","level":"INFO","message":"Database connection established successfully"}
+{"timestamp":"2025-07-19T09:26:01.875Z","level":"INFO","message":"Database synced successfully"}
+{"timestamp":"2025-07-19T09:26:13.946Z","level":"INFO","message":"HTTP Request Started","data":{"requestId":"req_1752917173946_vyfojbtle","method":"GET","url":"/api/customers","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"anonymous"}}
+{"timestamp":"2025-07-19T09:26:13.951Z","level":"INFO","message":"[req_1752917173946_vyfojbtle] [GET_CUSTOMERS] Request started","data":{"query":{},"user":4,"timestamp":"2025-07-19T09:26:13.951Z"}}
+{"timestamp":"2025-07-19T09:26:13.951Z","level":"INFO","message":"[req_1752917173946_vyfojbtle] [GET_CUSTOMERS] Query parameters:","data":{"whereClause":{"isActive":true},"sortBy":"createdAt","sortOrder":"DESC","limit":10,"offset":0}}
+{"timestamp":"2025-07-19T09:26:13.970Z","level":"INFO","message":"[req_1752917173946_vyfojbtle] [GET_CUSTOMERS] Request completed successfully","data":{"customersFound":0,"responseTime":"20ms","timestamp":"2025-07-19T09:26:13.970Z"}}
+{"timestamp":"2025-07-19T09:26:13.971Z","level":"INFO","message":"HTTP Request Completed","data":{"requestId":"req_1752917173946_vyfojbtle","method":"GET","url":"/","statusCode":200,"responseTime":"25ms","responseSize":231}}
+{"timestamp":"2025-07-19T09:26:13.977Z","level":"INFO","message":"HTTP Request","data":{"message":"::1 - - [19/Jul/2025:09:26:13 +0000] \"GET /api/customers HTTP/1.1\" 200 231 \"-\" \"PostmanRuntime/7.44.1\""}}
+{"timestamp":"2025-07-19T10:07:51.711Z","level":"INFO","message":"Database connection established successfully"}
+{"timestamp":"2025-07-19T10:07:52.832Z","level":"INFO","message":"Database synced successfully"}
+{"timestamp":"2025-07-19T10:16:11.298Z","level":"INFO","message":"Database connection established successfully"}
+{"timestamp":"2025-07-19T10:16:12.632Z","level":"INFO","message":"Database synced successfully"}
+{"timestamp":"2025-07-19T10:16:20.244Z","level":"INFO","message":"HTTP Request Started","data":{"requestId":"req_1752920180244_a6sse89p5","method":"POST","url":"/api/auth/register","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"anonymous"}}
+{"timestamp":"2025-07-19T10:16:20.246Z","level":"INFO","message":"User registration attempt","data":{"requestId":"req_1752920180244_a6sse89p5","email":"vishvjeet@gmail.com","role":"Admin"}}
+{"timestamp":"2025-07-19T10:16:20.378Z","level":"INFO","message":"User registered successfully","data":{"requestId":"req_1752920180244_a6sse89p5","userId":5,"email":"vishvjeet@gmail.com"}}
+{"timestamp":"2025-07-19T10:16:20.379Z","level":"INFO","message":"HTTP Request Completed","data":{"requestId":"req_1752920180244_a6sse89p5","method":"POST","url":"/register","statusCode":201,"responseTime":"134ms","responseSize":145}}
+{"timestamp":"2025-07-19T10:16:20.382Z","level":"INFO","message":"HTTP Request","data":{"message":"::1 - - [19/Jul/2025:10:16:20 +0000] \"POST /api/auth/register HTTP/1.1\" 201 145 \"-\" \"PostmanRuntime/7.44.1\""}}
+{"timestamp":"2025-07-19T10:17:08.439Z","level":"INFO","message":"HTTP Request Started","data":{"requestId":"req_1752920228438_o6wfmjqr4","method":"POST","url":"/api/auth/login","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"anonymous"}}
+{"timestamp":"2025-07-19T10:17:08.439Z","level":"INFO","message":"User login attempt","data":{"requestId":"req_1752920228438_o6wfmjqr4","email":"vishvjeet@gmail.com"}}
+{"timestamp":"2025-07-19T10:17:08.543Z","level":"INFO","message":"User login successful","data":{"requestId":"req_1752920228438_o6wfmjqr4","userId":5,"email":"vishvjeet@gmail.com"}}
+{"timestamp":"2025-07-19T10:17:08.543Z","level":"INFO","message":"HTTP Request Completed","data":{"requestId":"req_1752920228438_o6wfmjqr4","method":"POST","url":"/login","statusCode":200,"responseTime":"105ms","responseSize":142}}
+{"timestamp":"2025-07-19T10:17:08.544Z","level":"INFO","message":"HTTP Request","data":{"message":"::1 - - [19/Jul/2025:10:17:08 +0000] \"POST /api/auth/login HTTP/1.1\" 200 142 \"-\" \"PostmanRuntime/7.44.1\""}}
+{"timestamp":"2025-07-19T10:26:23.609Z","level":"INFO","message":"HTTP Request Started","data":{"requestId":"req_1752920783608_lswc7h805","method":"POST","url":"/api/products","ip":"::1","userAgent":"PostmanRuntime/7.44.1","userId":"anonymous"}}
+{"timestamp":"2025-07-19T10:26:23.649Z","level":"INFO","message":"HTTP Request Completed","data":{"requestId":"req_1752920783608_lswc7h805","method":"POST","url":"/","statusCode":201,"responseTime":"40ms","responseSize":675}}
+{"timestamp":"2025-07-19T10:26:23.650Z","level":"INFO","message":"HTTP Request","data":{"message":"::1 - - [19/Jul/2025:10:26:23 +0000] \"POST /api/products HTTP/1.1\" 201 675 \"-\" \"PostmanRuntime/7.44.1\""}}
+{"timestamp":"2025-07-19T10:28:09.379Z","level":"INFO","message":"Database connection established successfully"}
+{"timestamp":"2025-07-19T10:28:10.609Z","level":"INFO","message":"Database synced successfully"}
+{"timestamp":"2025-07-19T10:28:28.006Z","level":"INFO","message":"Database connection established successfully"}
+{"timestamp":"2025-07-19T10:28:29.335Z","level":"INFO","message":"Database synced successfully"}

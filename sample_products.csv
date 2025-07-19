@@ -1,0 +1,7 @@
+Name,Description,Category,Base Price,Brand,Image URL,SKU,Color,Size,Variant Price,Discount,Stock,Variant Image URL
+"iPhone 15 Pro","Latest iPhone with advanced features","Electronics",999.99,"Apple","https://example.com/iphone15.jpg","IP15P-BLK-128","Black","128GB",999.99,0,50,"https://example.com/iphone15-black.jpg"
+"iPhone 15 Pro","Latest iPhone with advanced features","Electronics",999.99,"Apple","https://example.com/iphone15.jpg","IP15P-WHT-256","White","256GB",1099.99,50,30,"https://example.com/iphone15-white.jpg"
+"Samsung Galaxy S24","Premium Android smartphone","Electronics",899.99,"Samsung","https://example.com/galaxy-s24.jpg","SGS24-BLU-128","Blue","128GB",899.99,0,25,"https://example.com/galaxy-s24-blue.jpg"
+"MacBook Pro 14","Professional laptop for developers","Electronics",1999.99,"Apple","https://example.com/macbook-pro.jpg","MBP14-SLV-512","Silver","512GB",1999.99,100,15,"https://example.com/macbook-pro-silver.jpg"
+"Nike Air Max 270","Comfortable running shoes","Footwear",129.99,"Nike","https://example.com/nike-airmax.jpg","NAM270-BLK-10","Black","10",129.99,0,100,"https://example.com/nike-airmax-black.jpg"
+"Nike Air Max 270","Comfortable running shoes","Footwear",129.99,"Nike","https://example.com/nike-airmax.jpg","NAM270-WHT-9","White","9",129.99,20,75,"https://example.com/nike-airmax-white.jpg" 
